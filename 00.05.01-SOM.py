@@ -70,4 +70,4 @@ fraudes = np.concatenate((mappings[(8,1)], mappings[(9,2)]), axis=0)
 fraudes = sc.inverse_transform(fraudes)
 
 # visualização dos registros que são fraudes
-fraudes
+print(fraudes)

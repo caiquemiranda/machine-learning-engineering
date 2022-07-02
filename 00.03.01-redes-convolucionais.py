@@ -55,3 +55,4 @@ classifier.fit_generator(train_set,
                          epochs=5,                # quantidade de epocas
                          validation_data=test_set,
                          validation_steps=50)
+                         
